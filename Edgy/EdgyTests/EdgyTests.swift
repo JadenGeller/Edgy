@@ -30,6 +30,7 @@ class EdgyTests: XCTestCase {
         XCTAssertTrue(components.contains { graph in
             graph.nodes == Set([5, 6, 7])
         })
+        XCTAssertEqual(2, components.count)
     }
     
 }
