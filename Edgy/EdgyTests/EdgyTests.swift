@@ -33,4 +33,11 @@ class EdgyTests: XCTestCase {
         XCTAssertEqual(2, components.count)
     }
     
+    func testUniqueNode() {
+        let (a, b, c) = (UniqueNode(1), UniqueNode(1), UniqueNode(2))
+        var graph = Graph(nodes: [a, b, c])
+        graph.addEdge(b, c)
+        XCTAssertEqual(2, graph.connectedComponents.count)
+    }
+    
 }

@@ -10,6 +10,7 @@
 		4D4443F41C33B5F200D84F27 /* Edgy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4443E91C33B5F100D84F27 /* Edgy.framework */; };
 		4D4443F91C33B5F200D84F27 /* EdgyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4443F81C33B5F200D84F27 /* EdgyTests.swift */; };
 		4D4444041C33B60300D84F27 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4444031C33B60300D84F27 /* Graph.swift */; };
+		4D4444061C33B8BC00D84F27 /* UniqueNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4444051C33B8BC00D84F27 /* UniqueNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		4D4443F81C33B5F200D84F27 /* EdgyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgyTests.swift; sourceTree = "<group>"; };
 		4D4443FA1C33B5F200D84F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D4444031C33B60300D84F27 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = ../../Sources/Graph.swift; sourceTree = "<group>"; };
+		4D4444051C33B8BC00D84F27 /* UniqueNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				4D4444031C33B60300D84F27 /* Graph.swift */,
+				4D4444051C33B8BC00D84F27 /* UniqueNode.swift */,
 				4D4443EE1C33B5F100D84F27 /* Info.plist */,
 			);
 			path = Edgy;
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4444061C33B8BC00D84F27 /* UniqueNode.swift in Sources */,
 				4D4444041C33B60300D84F27 /* Graph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
