@@ -12,7 +12,7 @@ public class UniqueNode<Element>: Hashable {
     public init(_ element: Element) {
         self.element = element
     }
-    
+
     public var hashValue: Int {
         return ObjectIdentifier(self).hashValue
     }
